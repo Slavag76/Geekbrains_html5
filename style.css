@@ -270,6 +270,62 @@ padding-top: 83px;
 line-height: 28px;
 font-weight: 300;
 color: #8c8c8c;
-   
-  
+    
+}
+/*-- ------------ ЧЕТРВЕРТЫЙ БЛОК PURCHASE NOW ----------------- --*/
+.purchase {
+    width: 100%;
+    height: 150px;
+background-color: #f4f5f8;
+background-image: linear-gradient(90.0deg, #211b19 0%, #4e3427 100%);
+    display: flex;
+}
+.purchase-text {
+    flex: 1;
+    padding-left: 16%;
+    margin: auto;
+    
+    
+}
+
+.purchase-text span {
+font-size: 28px;
+font-weight: 400;
+color: #ffffff;  
+ 
+}
+.purchase-text .waxom  {
+  color: #c7b299;  
+    
+}
+.btn {
+    flex: 1;
+    display: flex;
+        
+}
+.purchase-text p {
+font-size: 18px;
+font-weight: 300;
+color: #615855; 
+    margin: 5px 0;
+}
+.purchase-btn {
+width: 170px;
+height: 53px;
+background-color: #998675;
+border-radius: 3.0px;
+font-size: 14px;
+line-height: 23px;
+font-weight: 700;
+text-transform: uppercase;
+color: #ffffff;
+text-decoration: none;
+text-align: center;
+font-family: sans-serif;
+padding: 17px;
+margin: auto;
+}
+
+.purchase-btn:hover {
+    background-color: #474541;
 }
