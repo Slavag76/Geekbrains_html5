@@ -4,7 +4,10 @@
 
 body {
     font-family: sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
 
 .container {
   width: 1920px; 
@@ -328,4 +331,126 @@ margin: auto;
 
 .purchase-btn:hover {
     background-color: #474541;
+}
+/*-- ------------ ПЯТЫЙ БЛОК OUR LATEST PROJECTS ----------------- --*/
+.ourlatest {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+  }
+
+.ourlatest-header {
+    width: 63%;
+    margin: auto;
+    text-align: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ourlatest-header h2 {
+   font-size: 30px;
+line-height: 1.2;
+font-weight: 600;
+color: #555555; 
+    padding-top: 50px;
+    margin: 0;
+}
+.ourlatest-header p {
+    width: 75%;
+    margin: auto;
+    font-size: 16px;
+line-height: 28px;
+font-weight: 300;
+color: #8c8c8c;
+    margin-bottom: 0;
+}
+
+.header-btn {
+display: block;
+width: 120px;
+height: 32px;
+border: 1.0px solid #ebebeb;
+border-radius: 3.0px;
+ font-size: 14px;
+line-height: 21px;
+font-weight: 300;
+color: #8c8c8c; 
+text-decoration: none;
+    padding: 5px;
+   }
+.all {
+   width: 70px; 
+  }
+
+.header-btn:hover {
+   background-color: #998675; 
+    color: #ffffff;
+}
+
+.header-menu {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-between;
+    margin: auto;
+    height: 50px;
+}
+
+.blocklink {
+    display: block;
+   width: 370px;
+   height: 334px;
+   text-decoration: none;
+    
+}
+.project-pictures {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 63%;
+    justify-content: space-around;
+    margin: auto;
+    height: 735px;
+        
+    }
+.project-foto {
+  width: 370px;
+     height: 237px; 
+  display: block;
+   
+    
+}
+.project-foto-text {
+    background-color: #fbfaf8;
+    width: 370px;
+     height: 98px;
+    padding: 25px 30px;
+    
+    
+}
+.project-foto-text span {
+    font-size: 20px;
+line-height: 1.2;
+font-weight: 500;
+color: #c7b299;
+}
+
+.project-foto-text p {
+   font-size: 14px;
+line-height: 20px;
+font-weight: 300;
+color: #d1d1d1;
+    margin: 8px 0;
+}
+
+.blocklink:hover .project-foto-text {
+   background-color: #362f2d; 
+}
+
+.blocklink:hover .project-foto {
+  opacity: 0.4;
 }
