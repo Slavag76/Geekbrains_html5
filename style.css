@@ -14,6 +14,16 @@ body {
   margin: auto; 
 }
 
+
+.layer {
+   width: 100%;
+    height: 100%;
+    background: #8B4513;
+    opacity: 0.2;
+    position: absolute;
+    z-index: 1;    
+}
+
 .main  {
     color: #fff;
     display: flex;
@@ -25,6 +35,7 @@ body {
     min-height: 700px;
     background: url(img/bg_photo_11949.png) no-repeat center;
     background-size: cover;
+    position: relative;
             }
 .header {
     margin-top: 55px;
@@ -34,6 +45,7 @@ body {
     justify-content: space-between;
     width: 70%;
     position: relative;
+    z-index: 2;
 }
 
 /*-------ЛОГОТИП----------*/
@@ -131,6 +143,7 @@ margin: auto;
 .main-text {
     position: relative;
     text-align: center;
+    z-index: 2;
     }
 .main-text span {
 font-size: 36px;
@@ -453,4 +466,60 @@ color: #d1d1d1;
 
 .blocklink:hover .project-foto {
   opacity: 0.4;
+}
+/*-- ------------ ШЕСТОЙ БЛОК ВИДЕО С КЛАВИАТУРОЙ ----------------- --*/
+.klaviatura {
+    width: 100%;
+    height: 705px;
+    background-image: url(img/bg_klaviatura_10983.png);
+    position: relative;
+    z-index: 0;
+    position: relative;
+    margin-top: 40px;
+    display: flex;
+          }
+
+.center-contain {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    z-index: 2;
+    
+}
+.circle {
+    background-image: url(img/circle_10994.png);
+    width: 100px;
+height: 100px;
+    opacity: 0.2;
+    margin: auto;
+    
+               }
+
+.play-circle {
+width: 20%;
+ margin: auto;
+   
+ }
+.play-circle:hover {
+    opacity: 0.5;
+}
+.center-contain h2 {
+ font-size: 34px;
+line-height: 1.2;
+font-weight: 500;
+color: #ffffff; 
+}
+.center-contain p {
+font-size: 18px;
+line-height: 28px;
+font-weight: 300;
+color: #ffffff;
+}
+.center-contain span {
+  font-size: 14px;
+line-height: 24px;
+font-weight: 400;
+color: #c7b299;  
 }
