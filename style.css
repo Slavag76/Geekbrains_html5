@@ -625,3 +625,144 @@ margin: 0 auto;
   background-color: #ffff;
   margin: 0 auto; 
 }
+
+/*--------------ДЕВЯТЫЙ БЛОК RECENT POSTS -------------------*/
+.recentposts {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.recentposts-head {
+ font-size: 30px;
+line-height: 1.2;
+font-weight: 600;
+color: #555555; 
+    margin-top: 50px;
+}
+
+ .recentposts-par {
+  font-size: 16px;
+line-height: 28px;
+font-weight: 300;
+color: #8c8c8c;  
+    width: 36%;
+     margin: auto;
+}
+
+.recentposts-div {
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+    margin: auto;
+    margin-top: 30px;
+    
+    }
+
+.recentposts-div-blockfoto {
+  width: 370px;
+height: 395px;
+border: 1.0px solid #f8f8f8; 
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.layer1 {
+width: 370px;
+height: 220px;
+}
+
+.fotoblock {
+width: 370px;
+height: 220px; 
+position: relative;
+
+}
+.foto1 {
+    background: url(img/bg_photo_foots.png);
+}
+
+.foto2 {
+    background: url(img/bg_small_keyboard.png);
+}
+
+.foto3 {
+    background: url(img/bg_photo_ship.png);
+}
+.date {
+    display: block;
+    width: 50px;
+    height: 70px;
+    position: absolute;
+    margin: 20px 20px;
+    color: #ffffff;
+    display: block;
+  
+    
+}
+.date-day {
+ width: 50px;
+height: 35px;
+background-color: #363636;
+border-radius: 3.0px 3.0px 0.0px 0.0px; 
+    display: block;
+    font-size: 24px;
+line-height: 20px;
+font-weight: 300;
+ padding: 10px;
+
+    
+}
+.date-month {
+width: 50px;
+height: 25px;
+background-color: #252525;
+border-radius: 0.0px 0.0px 3.0px 3.0px; 
+    display: block;
+    font-size: 12px;
+line-height: 20px;
+font-weight: 400;
+    padding: 3px 12px;
+ 
+}
+
+.recentposts-div-blockfoto-head {
+  font-size: 20px;
+line-height: 1.2;
+font-weight: 500;
+color: #555555;
+    padding-left: 30px;
+ }
+
+.recentposts-div-blockfoto-text {
+   font-size: 14px;
+line-height: 22px;
+font-weight: 300;
+color: #8c8c8c; 
+     padding-left: 30px;
+    padding-right: 30px;
+    margin: 0;
+    
+}
+.readmore {
+  font-size: 14px;
+line-height: 20px;
+font-weight: 300;
+color: #c7b299;
+padding-left: 30px;
+    text-decoration: none;
+}
+
+.readmore::after {
+content: " ";
+width: 7px;
+height: 10px;
+background: url(img/arrow_readmore.svg);
+display: inline-block;
+margin-left: 3%;  
+
+    
+}
