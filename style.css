@@ -8,23 +8,21 @@ body {
     padding: 0;
 }
 
-
 .container {
-  width: 1920px; 
-  margin: auto; 
+    width: 1920px;
+    margin: auto;
 }
 
-
 .layer {
-   width: 100%;
+    width: 100%;
     height: 100%;
     background: #8B4513;
     opacity: 0.2;
     position: absolute;
-    z-index: 1;    
+    z-index: 1;
 }
 
-.main  {
+.main {
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -36,7 +34,8 @@ body {
     background: url(img/bg_photo_11949.png) no-repeat center;
     background-size: cover;
     position: relative;
-            }
+}
+
 .header {
     margin-top: 55px;
     display: flex;
@@ -48,51 +47,52 @@ body {
     z-index: 2;
 }
 
+
 /*-------ЛОГОТИП----------*/
 
 .link-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 180px;
-  text-decoration: none;
-  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    text-decoration: none;
 }
 
 .link-logo-svg {
-  fill: #fff;
+    fill: #fff;
 }
 
 .link-logo-txt {
-  color: #fff;
-  font-size: 28px;
-  font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .link-logo:hover .link-logo-svg {
-  fill: #998675;
+    fill: #998675;
 }
 
 .link-logo:hover .link-logo-txt {
-  color: #998675;
+    color: #998675;
 }
 
 .link-logo:active .link-logo-svg {
-  fill: gold;
+    fill: gold;
 }
 
 .link-logo:active .link-logo-txt {
-  color: gold;
+    color: gold;
 }
 
 .logo {
     margin-bottom: 10x;
 }
 
+
 /*----------МЕНЮ-----------*/
 
 .menu {
-  width: 70%;     
+    width: 70%;
 }
 
 .menu ul {
@@ -109,33 +109,35 @@ body {
     text-decoration: none;
     color: #fff;
     font-size: 14px;
-line-height: 1.2;
-font-weight: 300;
+    line-height: 1.2;
+    font-weight: 300;
 }
+
 .icon-menu1 {
-   padding-left: 60px; 
+    padding-left: 60px;
 }
 
 
 /*----------БЛОК ТЕКСТА С КНОПКОЙ-----------*/
 
 .get-started-btn {
-display: block;
-width: 170px;
-height: 53px;
-background-color: #998675;
-border-radius: 3.0px;
-font-size: 14px;
-line-height: 23px;
-font-weight: 700;
-text-transform: uppercase;
-color: #ffffff;
-text-decoration: none;
-text-align: center;
-font-family: sans-serif;
-padding: 17px;
-margin: auto;
-  }
+    display: block;
+    width: 170px;
+    height: 53px;
+    background-color: #998675;
+    border-radius: 3.0px;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 17px;
+    margin: auto;
+}
+
 .get-started-btn:hover {
     background-color: #474541;
 }
@@ -144,55 +146,56 @@ margin: auto;
     position: relative;
     text-align: center;
     z-index: 2;
-    }
-.main-text span {
-font-size: 36px;
-line-height: 1.2;
-font-weight: 500;
 }
+
+.main-text span {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
 .main-text h1 {
-font-size: 52px;
-line-height: 1.2;
-font-weight: 800; 
-margin-top: 10px;
+    font-size: 52px;
+    line-height: 1.2;
+    font-weight: 800;
+    margin-top: 10px;
 }
 
 .main-text p {
-font-size: 16px;
-line-height: 24px;
-font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
     width: 60%;
     margin: auto;
     margin-bottom: 20px
-    }    
-        
-/*----------ПАГИНАЦИЯ-----------*/
-        
-  .pagination {
-  width: 120px;
-  display: flex;
-  justify-content: center;
-     margin-bottom: 20px;
-      z-index: 2;
+}
 
+
+/*----------ПАГИНАЦИЯ-----------*/
+
+.pagination {
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    z-index: 2;
 }
 
 .pagination-link {
-  display: block;
-  width: 10px;
-  min-height: 10px;
-  margin: 5px;
-  background-color: #ccc;
-  border-radius: 50%;
-  border: 2px solid transparent;
+    display: block;
+    width: 10px;
+    min-height: 10px;
+    margin: 5px;
+    background-color: #ccc;
+    border-radius: 50%;
+    border: 2px solid transparent;
 }
 
 .pagination-link:hover {
-  border: 2px solid gold;
-  background-color: transparent;
-}      
-        
-        
+    border: 2px solid gold;
+    background-color: transparent;
+}
+
 
 /*-- ------------ ВТОРОЙ БЛОК С SVG ИКОНКАМИ ----------------- --*/
 
@@ -203,156 +206,158 @@ font-weight: 300;
     margin: auto;
 }
 
-
 .web {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 300px;
-  padding: 40px 10px 40px 10px;
-  box-sizing: border-box;
-  /* border: 1px solid black; */
-  text-align: center;
-  color: #555555;
-  background-color: #fff;
-  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+    padding: 40px 10px 40px 10px;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    text-align: center;
+    color: #555555;
+    background-color: #fff;
 }
 
 .web:after {
-  content: "";
-  display: block;
-  width: 100px;
-  height: 4px;
-  background-color: #555555;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: #555555;
 }
 
 .web:hover .web-icon {
-  fill: #998675;
+    fill: #998675;
 }
 
 .web:hover .web-title {
-  color: #998675;
+    color: #998675;
 }
 
 .web:hover:after {
- background-color: #998675;
+    background-color: #998675;
 }
 
 .web-icon {
-  fill: #555555;
-  margin: 0 0 15px 0;
-  }
+    fill: #555555;
+    margin: 0 0 15px 0;
+}
 
 .web-title {
-  margin: 0 0 10px 0;
-  width: 100%;
-  font-weight: bold;
+    margin: 0 0 10px 0;
+    width: 100%;
+    font-weight: bold;
     font-size: 22px;
-line-height: 1.2;
-font-weight: 600;
-color: #555555;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
 }
 
 .web-txt {
-  margin: 0 0 15px 0;
-font-size: 14px;
-line-height: 24px;
-font-weight: 300;
-color: #8c8c8c;
+    margin: 0 0 15px 0;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #8c8c8c;
 }
+
 
 /*-- ------------ ТРЕТИЙ БЛОК С ТРЕМЯ КАРТИНКАМИ ----------------- --*/
 
-
-.three-pictures  {
-    background-image: url(img/browser_center_10768.png), url(img/browser_left_10769.png),  url(img/browser_right_10770.png);
-    background-repeat : no-repeat;
+.three-pictures {
+    background-image: url(img/browser_center_10768.png), url(img/browser_left_10769.png), url(img/browser_right_10770.png);
+    background-repeat: no-repeat;
     width: 100%;
     height: 700px;
-    background-position : 50% 100%, 346px 100%, 806px 100%;
+    background-position: 50% 100%, 346px 100%, 806px 100%;
     text-align: center;
     background-color: #fbfaf8;
-    
 }
+
 .three-pictures h2 {
     font-size: 30px;
-line-height: 1.2;
-font-weight: 600;
-color: #555555;
-padding-top: 83px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+    padding-top: 83px;
 }
 
 .three-pictures p {
     font-size: 16px;
-line-height: 28px;
-font-weight: 300;
-color: #8c8c8c;
-    
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
 }
+
+
 /*-- ------------ ЧЕТРВЕРТЫЙ БЛОК PURCHASE NOW ----------------- --*/
+
 .purchase {
     width: 100%;
     height: 150px;
-background-color: #f4f5f8;
-background-image: linear-gradient(90.0deg, #211b19 0%, #4e3427 100%);
+    background-color: #f4f5f8;
+    background-image: linear-gradient(90.0deg, #211b19 0%, #4e3427 100%);
     display: flex;
 }
+
 .purchase-text {
     flex: 1;
     padding-left: 16%;
     margin: auto;
-    
-    
 }
 
 .purchase-text span {
-font-size: 28px;
-font-weight: 400;
-color: #ffffff;  
- 
+    font-size: 28px;
+    font-weight: 400;
+    color: #ffffff;
 }
-.purchase-text .waxom  {
-  color: #c7b299;  
-    
+
+.purchase-text .waxom {
+    color: #c7b299;
 }
+
 .btn {
     flex: 1;
     display: flex;
-        
 }
+
 .purchase-text p {
-font-size: 18px;
-font-weight: 300;
-color: #615855; 
+    font-size: 18px;
+    font-weight: 300;
+    color: #615855;
     margin: 5px 0;
 }
+
 .purchase-btn {
-width: 170px;
-height: 53px;
-background-color: #998675;
-border-radius: 3.0px;
-font-size: 14px;
-line-height: 23px;
-font-weight: 700;
-text-transform: uppercase;
-color: #ffffff;
-text-decoration: none;
-text-align: center;
-font-family: sans-serif;
-padding: 17px;
-margin: auto;
+    width: 170px;
+    height: 53px;
+    background-color: #998675;
+    border-radius: 3.0px;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 17px;
+    margin: auto;
 }
 
 .purchase-btn:hover {
     background-color: #474541;
 }
+
+
 /*-- ------------ ПЯТЫЙ БЛОК OUR LATEST PROJECTS ----------------- --*/
+
 .ourlatest {
     display: flex;
     flex-direction: column;
     width: 100%;
-    
-  }
+}
 
 .ourlatest-header {
     width: 63%;
@@ -365,42 +370,44 @@ margin: auto;
 }
 
 .ourlatest-header h2 {
-   font-size: 30px;
-line-height: 1.2;
-font-weight: 600;
-color: #555555; 
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
     padding-top: 50px;
     margin: 0;
 }
+
 .ourlatest-header p {
     width: 75%;
     margin: auto;
     font-size: 16px;
-line-height: 28px;
-font-weight: 300;
-color: #8c8c8c;
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
     margin-bottom: 0;
 }
 
 .header-btn {
-display: block;
-width: 120px;
-height: 32px;
-border: 1.0px solid #ebebeb;
-border-radius: 3.0px;
- font-size: 14px;
-line-height: 21px;
-font-weight: 300;
-color: #8c8c8c; 
-text-decoration: none;
+    display: block;
+    width: 120px;
+    height: 32px;
+    border: 1.0px solid #ebebeb;
+    border-radius: 3.0px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+    color: #8c8c8c;
+    text-decoration: none;
     padding: 5px;
-   }
+}
+
 .all {
-   width: 70px; 
-  }
+    width: 70px;
+}
 
 .header-btn:hover {
-   background-color: #998675; 
+    background-color: #998675;
     color: #ffffff;
 }
 
@@ -416,11 +423,11 @@ text-decoration: none;
 
 .blocklink {
     display: block;
-   width: 370px;
-   height: 334px;
-   text-decoration: none;
-    
+    width: 370px;
+    height: 334px;
+    text-decoration: none;
 }
+
 .project-pictures {
     display: flex;
     flex-direction: row;
@@ -429,46 +436,47 @@ text-decoration: none;
     justify-content: space-around;
     margin: auto;
     height: 735px;
-        
-    }
-.project-foto {
-  width: 370px;
-     height: 237px; 
-  display: block;
-   
-    
 }
+
+.project-foto {
+    width: 370px;
+    height: 237px;
+    display: block;
+}
+
 .project-foto-text {
     background-color: #fbfaf8;
     width: 370px;
-     height: 98px;
+    height: 98px;
     padding: 25px 30px;
-    
-    
 }
+
 .project-foto-text span {
     font-size: 20px;
-line-height: 1.2;
-font-weight: 500;
-color: #c7b299;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #c7b299;
 }
 
 .project-foto-text p {
-   font-size: 14px;
-line-height: 20px;
-font-weight: 300;
-color: #d1d1d1;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #d1d1d1;
     margin: 8px 0;
 }
 
 .blocklink:hover .project-foto-text {
-   background-color: #362f2d; 
+    background-color: #362f2d;
 }
 
 .blocklink:hover .project-foto {
-  opacity: 0.4;
+    opacity: 0.4;
 }
+
+
 /*-- ------------ ШЕСТОЙ БЛОК ВИДЕО С КЛАВИАТУРОЙ ----------------- --*/
+
 .klaviatura {
     width: 100%;
     height: 705px;
@@ -478,7 +486,7 @@ color: #d1d1d1;
     position: relative;
     margin-top: 40px;
     display: flex;
-          }
+}
 
 .center-contain {
     display: flex;
@@ -487,101 +495,108 @@ color: #d1d1d1;
     margin: auto;
     text-align: center;
     z-index: 2;
-    
 }
+
 .circle {
     background-image: url(img/circle_10994.png);
     width: 100px;
-height: 100px;
+    height: 100px;
     opacity: 0.2;
     margin: auto;
-    
-               }
+}
 
 .play-circle {
-width: 20%;
- margin: auto;
-   
- }
+    width: 20%;
+    margin: auto;
+}
+
 .play-circle:hover {
     opacity: 0.5;
 }
+
 .center-contain h2 {
- font-size: 34px;
-line-height: 1.2;
-font-weight: 500;
-color: #ffffff; 
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #ffffff;
 }
+
 .center-contain p {
-font-size: 18px;
-line-height: 28px;
-font-weight: 300;
-color: #ffffff;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #ffffff;
 }
+
 .center-contain span {
-  font-size: 14px;
-line-height: 24px;
-font-weight: 400;
-color: #c7b299;  
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #c7b299;
 }
+
 
 /*-- ------------СЕДЬМОЙ БЛОК MOBILE DEVICES ----------------- --*/
 
 .mobiledev {
     width: 100%;
     height: 695px;
-     background: url(img/iphone_in_hand_10962.png) no-repeat;
+    background: url(img/iphone_in_hand_10962.png) no-repeat;
     background-position: 26% 100%;
     background-color: #fbfaf8;
-    position: relative; 
+    position: relative;
     display: flex;
     justify-content: flex-end;
-   }
+}
+
 .mobiledev-text {
-  width: 45%; 
-margin: 6% 10%;
- }
+    width: 45%;
+    margin: 6% 10%;
+}
+
 .mobiledev-text h2 {
- font-size: 30px;
-line-height: 1.2;
-font-weight: 600;
-color: #555555;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
     padding-top: 4%
 }
 
 .mobiledev-text p {
-  font-size: 16px;
-line-height: 28px;
-font-weight: 300;
-color: #8c8c8c; 
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
     padding-top: 2%
 }
 
 .mobiledev-text ul {
-  font-size: 16px;
-line-height: 32px;
-font-weight: 300;
-color: #8c8c8c;
-list-style-type: none;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 300;
+    color: #8c8c8c;
+    list-style-type: none;
     padding-top: 2%;
 }
+
 .arrow::before {
-content: " ";
-width: 21px;
-height: 21px;
-background: url(img/01_10972.png);
-display: inline-block;
-margin-right: 3%;  
-vertical-align: middle;
-    
+    content: " ";
+    width: 21px;
+    height: 21px;
+    background: url(img/01_10972.png);
+    display: inline-block;
+    margin-right: 3%;
+    vertical-align: middle;
 }
 
+
 /*--------------ВОСЬМОЙ БЛОК СЧЕТЧИКИ -------------------*/
+
 .svg-counts {
     width: 100%;
     height: 300px;
     background-color: #f4f5f8;
-background-image: linear-gradient(90.0deg, #211b19 0%, #4e3427 100%);
+    background-image: linear-gradient(90.0deg, #211b19 0%, #4e3427 100%);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -593,40 +608,42 @@ background-image: linear-gradient(90.0deg, #211b19 0%, #4e3427 100%);
     text-align: center;
     height: 300px;
     justify-content: space-around;
-    padding: 50px 0;  
+    padding: 50px 0;
     width: 11%;
 }
 
 .svg-counts-block span {
-  font-size: 48px;
-line-height: 36px;
-font-weight: 200;
-color: #ffffff;  
+    font-size: 48px;
+    line-height: 36px;
+    font-weight: 200;
+    color: #ffffff;
 }
 
 .svg-counts-block p {
-  font-size: 14px;
-line-height: 20px;
-font-weight: 300;
-text-transform: uppercase;
-color: #c7b299;  
-}
-.svg-count-svg {
- fill: #c7b299;
-margin: 0 auto;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #c7b299;
 }
 
+.svg-count-svg {
+    fill: #c7b299;
+    margin: 0 auto;
+}
 
 .svg-counts-block:after {
-  content: "";
-  display: block;
-  width: 50px;
-  height: 2px;
-  background-color: #ffff;
-  margin: 0 auto; 
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #ffff;
+    margin: 0 auto;
 }
 
+
 /*--------------ДЕВЯТЫЙ БЛОК RECENT POSTS -------------------*/
+
 .recentposts {
     width: 100%;
     display: flex;
@@ -635,20 +652,20 @@ margin: 0 auto;
 }
 
 .recentposts-head {
- font-size: 30px;
-line-height: 1.2;
-font-weight: 600;
-color: #555555; 
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
     margin-top: 50px;
 }
 
- .recentposts-par {
-  font-size: 16px;
-line-height: 28px;
-font-weight: 300;
-color: #8c8c8c;  
+.recentposts-par {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
     width: 36%;
-     margin: auto;
+    margin: auto;
 }
 
 .recentposts-div {
@@ -657,13 +674,12 @@ color: #8c8c8c;
     width: 65%;
     margin: auto;
     margin-top: 30px;
-    
-    }
+}
 
 .recentposts-div-blockfoto {
-  width: 370px;
-height: 395px;
-border: 1.0px solid #f8f8f8; 
+    width: 370px;
+    height: 395px;
+    border: 1.0px solid #f8f8f8;
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -671,16 +687,16 @@ border: 1.0px solid #f8f8f8;
 }
 
 .layer1 {
-width: 370px;
-height: 220px;
+    width: 370px;
+    height: 220px;
 }
 
 .fotoblock {
-width: 370px;
-height: 220px; 
-position: relative;
-
+    width: 370px;
+    height: 220px;
+    position: relative;
 }
+
 .foto1 {
     background: url(img/bg_photo_foots.png);
 }
@@ -692,6 +708,7 @@ position: relative;
 .foto3 {
     background: url(img/bg_photo_ship.png);
 }
+
 .date {
     display: block;
     width: 50px;
@@ -700,69 +717,109 @@ position: relative;
     margin: 20px 20px;
     color: #ffffff;
     display: block;
-  
-    
 }
+
 .date-day {
- width: 50px;
-height: 35px;
-background-color: #363636;
-border-radius: 3.0px 3.0px 0.0px 0.0px; 
+    width: 50px;
+    height: 35px;
+    background-color: #363636;
+    border-radius: 3.0px 3.0px 0.0px 0.0px;
     display: block;
     font-size: 24px;
-line-height: 20px;
-font-weight: 300;
- padding: 10px;
-
-    
+    line-height: 20px;
+    font-weight: 300;
+    padding: 10px;
 }
+
 .date-month {
-width: 50px;
-height: 25px;
-background-color: #252525;
-border-radius: 0.0px 0.0px 3.0px 3.0px; 
+    width: 50px;
+    height: 25px;
+    background-color: #252525;
+    border-radius: 0.0px 0.0px 3.0px 3.0px;
     display: block;
     font-size: 12px;
-line-height: 20px;
-font-weight: 400;
+    line-height: 20px;
+    font-weight: 400;
     padding: 3px 12px;
- 
 }
 
 .recentposts-div-blockfoto-head {
-  font-size: 20px;
-line-height: 1.2;
-font-weight: 500;
-color: #555555;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #555555;
     padding-left: 30px;
- }
+}
 
 .recentposts-div-blockfoto-text {
-   font-size: 14px;
-line-height: 22px;
-font-weight: 300;
-color: #8c8c8c; 
-     padding-left: 30px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #8c8c8c;
+    padding-left: 30px;
     padding-right: 30px;
     margin: 0;
-    
 }
+
 .readmore {
-  font-size: 14px;
-line-height: 20px;
-font-weight: 300;
-color: #c7b299;
-padding-left: 30px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #c7b299;
+    padding-left: 30px;
     text-decoration: none;
 }
 
 .readmore::after {
-content: " ";
-width: 7px;
-height: 10px;
-background: url(img/arrow_readmore.svg);
-display: inline-block;
-margin-left: 3%;  
-
-    
+    content: " ";
+    width: 7px;
+    height: 10px;
+    background: url(img/arrow_readmore.svg);
+    display: inline-block;
+    margin-left: 3%;
 }
+
+.recentposts-pagination {
+    padding-top: 25px;
+}
+.recentposts-pagination a {
+    text-decoration: none;
+}
+.pagination-arrows:hover {
+    background-color: rgb(199, 178, 153);
+    border-radius: 50%;
+}
+/*--------------ДЕСЯТЫЙ БЛОК  ЧЕТЫРЕ ИКОНКИ -------------------*/
+.icons-for {
+    width: 100%;
+    height: 406px;
+    background: url(img/bg_4icons_11122.png);
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 16%;
+    padding-right: 16%;
+} 
+.barber {
+    width: 210px;
+height: 127px;
+    background: url(img/barber.png);
+}
+.delicions {
+  width: 210px;
+height: 210px;
+    background: url(img/delicions.png);
+}
+.designers {
+ width: 210px;
+height: 130px;
+    background: url(img/designers.png);
+}
+.royal {
+  width: 210px;
+height: 164px;
+  background: url(img/royal.png); 
+}
+
