@@ -822,4 +822,103 @@ height: 130px;
 height: 164px;
   background: url(img/royal.png); 
 }
+/*--------------ОДИННАДЦАТЫЙ БЛОК CONTACTS -------------------*/
+.contacts {
+    width: 100%;
+    height: 508px;
+    background-color: #191919;
+    display: flex;
+    flex-direction: row;
+    padding: 5% 16% 0 16%;
+    }
 
+.contacts-block {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    padding: 0 2%
+    
+}
+
+.unit1, .unit2, .unit3, .unit4 {
+    flex: 1;
+    cursor: pointer;
+    
+}
+.unit-2-3 {
+    flex: 2;
+    
+}
+
+.unit4-1 {
+    height: 14%;
+}
+.contacts-p {
+  font-size: 14px;
+line-height: 24px;
+font-weight: 300;
+color: #555555; 
+margin: 0;
+}
+
+.contacts-small {
+  font-size: 12px;
+line-height: 20px;
+font-weight: 300;
+color: #363636;
+}
+.contacts-block h2 {
+  font-size: 24px;
+line-height: 1.2;
+font-weight: 700;
+color: #ffffff; 
+    
+}
+.unit-2-3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around
+}
+.padding-down {
+    padding: 0;
+}
+
+.colortext {
+    color: aqua;
+}
+
+.padding-down:hover {
+  color: #ffffff;   
+}
+
+.unit1:hover h2 {
+  color: #c7b299;  
+}
+
+.unit2:hover .contacts-p {
+color: #c7b299;  
+}
+.unit3:hover .contacts-p {
+color: #c7b299;  
+}
+.unit4:hover .contacts-p {
+color: #c7b299;  
+}
+.unit-2-3:hover .contacts-p {
+color: #c7b299;  
+}
+.unit2:hover .contacts-small {
+color: #ffffff;  
+}
+.unit3:hover .contacts-small {
+color: #ffffff; 
+}
+.unit4:hover .contacts-small {
+color: #ffffff;  
+}
+.contacts-foto:hover {
+    opacity: 0.5;
+}
