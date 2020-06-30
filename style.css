@@ -1,3 +1,51 @@
+/*-------МЕДИАЗАПРОСЫ АДАПТИВНОСТЬ----------*/
+
+@media (min-width: 300px) and (max-width: 1200px) {
+    
+    .container {
+        max-width: 800px;        
+          } 
+    
+    .main {
+        height: 100vh;
+        }
+    .header {
+        flex-direction: column;
+        
+        
+    }
+    
+    .menu ul {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    ul .icon-menu1 {
+        padding-left: 0;
+    }
+  
+  .fotorama {
+        height: 100vh;
+        }
+    .fill {
+        height: 100vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------ФРЕЙМ АНИМАЦИИ----------*/
+
 @keyframes moving {
   from {
     transform: rotate(0deg);
@@ -36,10 +84,11 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
+    
 }
 
 .container {
-    width: 1920px;
+    max-width: 1920px;
     margin: auto;
 }
 
@@ -55,9 +104,12 @@ body {
 .fotorama {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     }
 
+.fill {
+    width: 100%;
+}
 .main {
     color: #fff;
     display: flex;
@@ -175,6 +227,7 @@ body {
     font-family: sans-serif;
     padding: 17px;
     margin: auto;
+    flex: 1;
 }
 
 .get-started-btn:hover {
@@ -240,6 +293,7 @@ body {
 
 .svg-ikons {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     width: 65%;
     margin: auto;
@@ -307,13 +361,24 @@ body {
 /*-- ------------ ТРЕТИЙ БЛОК С ТРЕМЯ КАРТИНКАМИ ----------------- --*/
 
 .three-pictures {
-    background-image: url(img/browser_center_10768.png), url(img/browser_left_10769.png), url(img/browser_right_10770.png);
-    background-repeat: no-repeat;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: 700px;
-    background-position: 50% 100%, 346px 100%, 806px 100%;
     text-align: center;
     background-color: #fbfaf8;
+       
+}
+
+.pictures-image {
+       background-image: url(img/browser_center_10768.png), url(img/browser_left_10769.png), url(img/browser_right_10770.png);
+    background-repeat: no-repeat;
+    width: 100%; 
+    height: 60%;
+   background-position: 50% 100%, 20% 100%, 80% 100%;
+    object-fit: fill;
+    
+    
 }
 
 .three-pictures h2 {
@@ -340,6 +405,7 @@ body {
     background-color: #f4f5f8;
     background-image: linear-gradient(90.0deg, #211b19 0%, #4e3427 100%);
     display: flex;
+    flex-wrap: wrap;
 }
 
 .purchase-text {
@@ -408,6 +474,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    flex: 1;
 }
 
 .ourlatest-header h2 {
@@ -457,9 +524,9 @@ body {
     list-style-type: none;
     flex-direction: row;
     width: 60%;
-    justify-content: space-between;
+justify-content: space-between;
     margin: auto;
-    height: 50px;
+    flex-wrap: wrap;
 }
 
 .blocklink {
@@ -477,6 +544,7 @@ body {
     justify-content: space-around;
     margin: auto;
     height: 735px;
+    flex: 2;
 }
 
 .project-foto {
@@ -583,17 +651,28 @@ body {
 .mobiledev {
     width: 100%;
     height: 695px;
-    background: url(img/iphone_in_hand_10962.png) no-repeat;
-    background-position: 26% 100%;
     background-color: #fbfaf8;
-    position: relative;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: row;
+    
 }
 
+.foto-mobile-hand {
+    flex: 2;
+    background: url(img/iphone_in_hand_10962.png) no-repeat;
+    object-fit: fill;
+    background-position: 90% 100%;
+    height: 100%;
+}
 .mobiledev-text {
-    width: 45%;
-    margin: 6% 10%;
+    flex: 2;
+    margin: 0 10% 0 1%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15% 0;
+    
 }
 
 .mobiledev-text h2 {
@@ -601,7 +680,7 @@ body {
     line-height: 1.2;
     font-weight: 600;
     color: #555555;
-    padding-top: 4%
+    flex: 1;
 }
 
 .mobiledev-text p {
@@ -609,7 +688,7 @@ body {
     line-height: 28px;
     font-weight: 300;
     color: #8c8c8c;
-    padding-top: 2%
+    flex: 1;
 }
 
 .mobiledev-text ul {
@@ -618,7 +697,7 @@ body {
     font-weight: 300;
     color: #8c8c8c;
     list-style-type: none;
-    padding-top: 2%;
+    flex: 1;
 }
 
 .arrow::before {
@@ -636,22 +715,23 @@ body {
 
 .svg-counts {
     width: 100%;
-    height: 300px;
     background-color: #f4f5f8;
     background-image: linear-gradient(90.0deg, #211b19 0%, #4e3427 100%);
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .svg-counts-block {
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 300px;
     justify-content: space-around;
     padding: 50px 0;
     width: 11%;
+    height: 25vh;
+    min-width: 160px;
 }
 
 .svg-counts-block span {
@@ -721,6 +801,7 @@ body {
     width: 65%;
     margin: auto;
     margin-top: 30px;
+    flex-wrap: wrap;
 }
 
 .recentposts-div-blockfoto {
@@ -843,7 +924,6 @@ body {
 /*--------------ДЕСЯТЫЙ БЛОК  ЧЕТЫРЕ ИКОНКИ -------------------*/
 .icons-for {
     width: 100%;
-    height: 406px;
     background: url(img/bg_4icons_11122.png);
     margin-top: 25px;
     display: flex;
@@ -852,7 +932,13 @@ body {
     align-items: center;
     padding-left: 16%;
     padding-right: 16%;
+    flex-wrap: wrap;
+    padding: 2% 15% 2% 15%;
 } 
+
+.icons-block {
+    min-width: 210px;
+ }
 
 .icons-block:hover {
   animation: moving2 2s linear infinite;   
@@ -881,19 +967,20 @@ height: 164px;
 /*--------------ОДИННАДЦАТЫЙ БЛОК CONTACTS -------------------*/
 .contacts {
     width: 100%;
-    height: 508px;
     background-color: #191919;
     display: flex;
     flex-direction: row;
-    padding: 5% 16% 0 16%;
+    padding: 5% 16% 5% 16%;
+    flex-wrap: wrap;
     }
 
 .contacts-block {
     flex: 1;
     display: flex;
     flex-direction: column;
-    height: 80%;
-    padding: 0 2%
+    height: 30vh;
+    padding: 0 2%;
+    min-width: 320px;
     
 }
 
@@ -904,7 +991,7 @@ height: 164px;
 }
 .unit-2-3 {
     flex: 2;
-    
+    min-width: 280px;
 }
 
 .unit4-1 {
@@ -936,7 +1023,8 @@ color: #ffffff;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around
+    justify-content: space-around;
+    
 }
 .padding-down {
     padding: 0;
@@ -981,23 +1069,25 @@ color: #ffffff;
 /*--------------FOOTER -------------------*/
 footer {
  width: 100%;
- height: 111px;
-background-color: #111111;
+ background-color: #111111;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 0 16%;
     align-items: center;
+    flex-wrap: wrap;
     
 }
 
 .footerblock {
     width: 37%;
+    min-width: 350px;
  }
 .footer-menu  {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
+    height: 5vh;
 }
 .footer-menu a{
 font-size: 13px;
